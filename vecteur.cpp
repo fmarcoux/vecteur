@@ -12,12 +12,14 @@ vecteur::~vecteur()
 {
     delete p_TableauForme;
 }
+
 int vecteur::GetTailleVecteur()
 {
     
     for(int i=0; p_TableauForme[i] != NULL;,i++)
     {
         count++;
+	
     }
     //retourne le nombre delement compter  
     return i;
