@@ -11,6 +11,7 @@ vecteur::vecteur()
 vecteur::~vecteur()
 {
     delete p_TableauForme;
+//commentaire
 }
 
 int vecteur::GetTailleVecteur()
